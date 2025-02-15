@@ -83,3 +83,14 @@ nav a{display: block; padding: 0 15px; font: 600 18px/62px var(--ff);}
 
 /* wrap 4 */
 .wrap-4{background: url(../img/bg3.webp) no-repeat center/cover; padding: 80px 0; color: #fff;}
+
+/* wrap 5 */
+.wrap-5{padding: 80px 0; background: #fff; color: #484848;}
+.wrap-5 .fa-bullhorn{transform: rotate(-45deg);}
+.wrap-5 .fa-4x{background: var(--grad); color: transparent; background-clip: text; margin-top: 2rem;}
+.wrap-5 p{margin: 1rem 0;}
+.wrap-5 h3{margin: 1rem 0;}
+.wrap-5 h2{font-size: 50px; margin-left: 0;}
+.video{height: 100%; border-radius: 20px; padding-top: 80px;}
+.video video{max-width: 100%; border-radius: 20px;}
+.wrap-5 .gicons{margin-top: 5px;}
