@@ -94,3 +94,57 @@ nav a{display: block; padding: 0 15px; font: 600 18px/62px var(--ff);}
 .video{height: 100%; border-radius: 20px; padding-top: 80px;}
 .video video{max-width: 100%; border-radius: 20px;}
 .wrap-5 .gicons{margin-top: 5px;}
+
+/* wrap 6 */
+.wrap-6{background: #f1f1f1; padding:100px 0; color: #484848;}
+.wrap-6 .tabs a{background: transparent;}
+.wrap-6 a:hover{background: #f42267; color: #fff;}
+.wrap-6 .tabs a.active{background: #f42267; color: #fff;}
+
+/* wrap 7 */
+.wrap-7{padding: 10rem 0; background: #4b2d7f; color: #fff;}
+.wrap-7 {display: flex; justify-content: center; align-items: center; padding: 50px 0;}
+.wrap-7 .container { max-width: 1200px; width: 100%;}
+.wrap-7 .row {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
+.wrap-7 .col-3 {display: flex; justify-content: center; align-items: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px);}
+.wrap-7 .col-3 img {max-width: 100px; height: auto; object-fit: contain; display: block;}
+
+/* responsive */
+@media screen and (max-width:1260px){
+    html{ font-size: 13px;}
+    nav a{ padding: 0 10px;}
+}
+
+@media screen and (max-width:980px){
+    .col-t-1{grid-column: span 1;}
+    .col-t-2{grid-column: span 2;}
+    .col-t-3{grid-column: span 3;}
+    .col-t-4{grid-column: span 4;}
+    .col-t-5{grid-column: span 5;}
+    .col-t-6{grid-column: span 6;}
+    .col-t-7{grid-column: span 7;}
+    .col-t-8{grid-column: span 8;}
+    .col-t-9{grid-column: span 9;}
+    .col-t-10{grid-column: span 10;}
+    .col-t-11{grid-column: span 11;}
+    .col-t-12{grid-column: span 12;} 
+    nav{ display: none;}
+    .banner p{ text-shadow: 2px 2px 4px #000;}
+    .video{ justify-content: center; }
+    .order-t-before{ order: -1;}
+}
+
+@media screen and (max-width:767px){
+    html{ font-size: 12px;}
+    .col-m-6{grid-column: span 6;}
+    .col-m-12{grid-column: span 12;}
+}
+
+@media screen and (max-width:460px){
+    .col-p-4{grid-column: span 4;}
+    .col-p-6{grid-column: span 6;}
+    .col-p-12{grid-column: span 12;}
+    .h2{ font-size: 35px;}
+    .heading{ font-size: 30px;}
+    .banner a{ width: 150px; margin: 30px 0 0 10px;}
+}
